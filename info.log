@@ -26,3 +26,7 @@
 {"message":"Bookmark with id 3 not found.","level":"error"}
 {"message":"Bookmark with id f333a46c-6dee-4795-92bb-2c28e4ae589d not found","level":"error"}
 {"message":"Bookmark with id f333a46c-6dee-4795-92bb-2c28e4ae589d not found","level":"error"}
+{"message":"Bookmark with id 1 was deleted","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Bookmark with id 8c05b16a-c16c-4359-bafa-1c8da4ecdb27 created","level":"info"}
+{"message":"Bookmark with id 8c05b16a-c16c-4359-bafa-1c8da4ecdb27 was deleted","level":"info"}
