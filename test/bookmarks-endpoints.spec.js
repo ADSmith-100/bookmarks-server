@@ -25,7 +25,7 @@ describe.only("Bookmarks Endpoints", function () {
       it(`responds with 200 and an empty list`, () => {
         return supertest(app)
           .get("/bookmarks")
-          .set("Authorization", `Bearer ${process.env.API_TOKEN}`)
+          .set("Authorization", `Bearer ${process.env.API_TOKEN}`) //this part was tricky, it was giving the 401 not authorized for every test until I discovered this.  Must set the auth in the test using .set()
           .expect(200, []);
       });
     });
